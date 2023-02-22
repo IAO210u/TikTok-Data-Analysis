@@ -1,0 +1,11 @@
+matplotlib=3.6.2=py310hca03da5_0
+matplotlib-base=3.6.2=py310h8bbb115_0
+matplotlib-inline=0.1.6=pyhd8ed1ab_0
+numpy=1.23.5=py310hb93e574_0
+numpy-base=1.23.5=py310haf87e8b_0
+pandas=1.5.3=py310h2b830bf_0
+pandas-stubs=1.5.3.230214=pyhd8ed1ab_0
+scikit-learn=1.2.0=py310h313beb8_0
+scipy=1.10.0=py310h20cbe94_0
+seaborn=0.12.2=py310hca03da5_0
+statsmodels=0.13.5=py310hbda83bc_0
