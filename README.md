@@ -8,23 +8,27 @@
 </br>
 
 ## 运行要求
-运行这个项目，首先需要安装jupyter notebook,
+运行这个项目，首先需要安装jupyter notebook；  
 
-然后运行以下命令以安装这些包及其版本：
+然后运行以下命令以安装这些包及其版本：  
 `pip install -r requirements.txt`
-
-或者手动安装这些库：
+  
+或者手动安装这些库：  
 `pip install numpy pandas matplotlib seaborn scipy scikit-learn statsmodels`
 
-如果你使用conda，则运行这个命令：
+如果你使用conda，则运行这个命令：  
 `conda install numpy pandas matplotlib seaborn scipy scikit-learn statsmodels`
 <br>
 </br>
 
 ## 数据
 所使用的数据包含作者信息（姓名和粉丝数量）、视频统计信息（点赞数、评论数、播放数和分享数）、视频元数据（视频长度）以及搜索标签信息（标签名称和浏览量）。
-新加的一列是 ‘engagement’（参与度），是根据其他某些列的值计算得出的新列。
-### 数据库来源： [Kaggle](https://www.kaggle.com/datasets/anasmahmood000/tiktok-dataset)    
+新加的一列是 ‘engagement’（参与度），是根据其他某些列的值计算得出的新列。计算公式如下：  
+<div style="text-align: center;">
+<strong> (点赞数 + 评论数 + 分享数) / 粉丝数) * 100</strong>
+</div>   
+
+### 数据集来源： [Kaggle](https://www.kaggle.com/datasets/anasmahmood000/tiktok-dataset)    
 <br>
 </br>
 
@@ -43,7 +47,10 @@
 - 视频长度要控制在适当的范围内，短视频更容易吸引观众；
 - 创作让观众喜欢的独特且有趣的内容，坚持原创作品，优化视频内容和提升视频质量；
 - 使用流行的话题和合适的标签，可以使视频更容易被发现，更容易获得观众的喜爱。
+
 需要注意的是，标签浏览量和点赞、播放量之间的相关性并不是非常强烈，因此在视频推广过程中，使用标签要适度，不可过度依赖标签浏览量来提高视频的表现。
+
+通过分析自己的视频类型和观众参与度，我们可以了解自己的优势和粉丝的需求，构建用户画像；并结合目前所处的人气阶段，制定适合自己的视频发布策略。
 
 最后，作者的粉丝数、分享数和点赞数对播放次数具有正相关性，而视频时长对播放次数的影响是负相关关系。因此，在制定社交媒体营销策略时，要注重提高关键因素，以增加视频的播放量。
   
